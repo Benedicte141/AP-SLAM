@@ -16,6 +16,14 @@ flex-direction: row;
 align-items: center;
 justify-content: space-around;
 }
+body {
+    background-color: #d8f3dc;
+    color: #081c15;
+}
+
+header p:hover{
+    color: #d8f3dc;
+}
 
 /*
 header p {
