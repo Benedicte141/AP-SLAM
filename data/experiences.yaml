@@ -1,0 +1,28 @@
+- employeur: Caisse Nationale des Allocations Familiales
+  competence: 
+    - nom: Assistant applicatifs
+      dateDebut: "06/2007 à aujourd'hui"
+      description: "
+      Assistance fonctionnelle et coordination MOA, 
+      Assistance métier aux concepteurs,
+      Qualification et Diagnostic des sollicitations,
+      Etude de la bonne adéquation entre la réglementation et les études fonctionnelles,
+      Participation à la recherche de solutions d’automatisation,
+      Conception et exécution de scénarii de tests,
+      Diagnostic des problèmes de fonctionnement observés,
+      Suivi et tests des corrections attendues,
+      Qualification des signalements émis par les CAF de recette et de validation"
+- employeur: Memorial de Caen
+  competence: 
+    - nom: Guide touristique
+      description: "
+      03/2005 à 10/2005 :
+      Visites guidées et commentées pour tous publics"
+- employeur: Gestitres à Bayeux
+  competence:  
+    - nom: Operateur de saisie
+      description: "
+      06/2002 à 08/2002 :
+      Saisie de données pour des ordres de virements bancaires"
+
+#Lien vers le CV dans l'index.php

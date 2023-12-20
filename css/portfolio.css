@@ -1,0 +1,312 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+header {
+width: 100%;
+height: 180px;
+font-size: 25px;
+font-family: Georgia;
+background-color: #2d6a4f;
+display : flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color : black;
+text-decoration : none;
+padding :0px 15px; 
+text-decoration : hover color #d8f3dc;
+}
+
+
+nav {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  font-family: Georgia;
+  position: fixed;
+  height: 40px;
+  margin-top: 100px;
+  }
+
+nav a{
+  font-size:larger;
+	color : black;
+  font-family: Georgia;
+  text-decoration : none;
+  padding :0px 15px; 
+  border-radius: 10%;
+}
+
+
+.cercle {
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+  border-radius: 60%;
+  overflow: hidden;
+  
+  }
+
+.cercle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  }
+
+.card{
+  padding-top: 40px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 20px;
+  width: 500px;
+  height: 200px;
+  font-family: Georgia;
+  display : flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  font-size:larger;
+}
+
+.card1{
+  width: 450px;
+  height: 350px;
+  border-radius: 20px;
+  overflow: hidden;
+  display : flex;
+  justify-content: center;
+  margin-left: 800px;
+  margin-top: -350px;
+  }
+
+.card1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+
+.card2{
+  width: 450px;
+  height: 350px;
+  border-radius: 20px;
+  overflow: hidden;
+  display : flex;
+  justify-content: center;
+  margin-left: 800px;
+  margin-top: 50px;
+  }
+
+.card2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+body {
+   background-color: #d8f3dc;
+   color: #081c15;
+   font-family: Georgia;
+   background-image: url(C:/xampp/htdocs/AP-SLAM-main/doc/Images/HTML/Feuille Bienvenue.jpg);
+   height : 6000px;
+}
+
+#accueil{
+  padding-top: 50px;
+  height: 900px;
+  background-color: #d8f3dc;
+  width: 100%;
+}
+
+#apropos{
+padding-top: 200px;
+height: 900px;
+background-color: #2d6a4f;
+width: 100%;
+}
+
+#competences {
+  padding-top: 200px;
+  height: 900px;
+  background-color: #d8f3dc;
+  width: 100%;
+}
+
+#experiences{
+padding-top: 200px;
+height: 900px;
+background-color: #2d6a4f;
+width: 100%;
+}
+
+#formation{
+padding-top: 200px;
+height: 900px;
+background-color: #d8f3dc;
+width: 100%;
+}
+
+#contact{
+  padding-top: 200px;
+  height: 900px;
+  background-color: #2d6a4f;
+  width: 100%;
+  }
+
+
+.skills {
+    
+    width: 70%;;
+    margin :auto;
+    margin-top: 50px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+  
+ .skills-bar {
+    padding: 25px 30px;
+  }
+  
+  .skills-bar .bar {
+    margin: 25px 0;
+  }
+  
+  .skills-bar .bar .info span {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .skills-bar .bar .info {
+    margin-bottom: 8px;
+    color: #07374a;
+  }
+  
+  .skills-bar .bar .progress-line {
+    position: relative;
+    height: 10px;
+    width: 550px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  }
+  
+  .bar .progress-line span {
+    position: absolute;
+    background: #25b79f;
+    height: 100%;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    text-transfrom = uppercase;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  }
+  
+  @keyframes animate {
+    100% {
+      transform: scaleX(1);
+    }
+  }
+  
+  .progress-line .html {
+    width: 30%;
+  }
+  .progress-line .css {
+    width: 30%;
+  }
+  .progress-line .php {
+    width: 10%;
+  }
+  .progress-line .sql {
+    width: 10%;
+  }
+  .progress-line .anglais {
+    width: 50%;
+  }
+  .progress-line .espagnol {
+    width: 60%;
+  }
+  .progress-line .allemand {
+    width: 10%;
+  }
+
+  .bar .progress-line span::before {
+    position: absolute;
+    content: "";
+    height: 0;
+    right: 0;
+    top: -14px;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-style: #f0f0f0;
+    border-top-color: #07374a;
+  }
+  
+  .bar .progress-line span::after {
+    position: absolute;
+    right: 0;
+    top: -28px;
+    color: #f0f0f0;
+    font-size: 12px;
+    font-weight: 700;
+    background: #07374a;
+    padding: 1px 8px;
+    border-radius: 3px;
+  }
+  
+  
+  .progress-line .html::after {
+    content: "30%";
+  }
+  .progress-line .css::after {
+    content: "30%";
+  }
+  .progress-line .php::after {
+    content: "10%";
+  }
+  .progress-line .sql::after {
+    content: "10%";
+  }
+  .progress-line .anglais::after {
+    content: "50%";
+  }
+  .progress-line .espagnol::after {
+    content: "60%";
+  }
+  .progress-line .allemand::after {
+    content: "10%";
+  }
+  /* ////........Media Query........//// */
+  
+  @media (max-width: 700px) {
+      .skills{
+          width: 80%;
+      }
+  
+      .skills-bar .bar .progress-line{
+          width: 100%;
+      }
+  }  
+
+span {
+  color : black; 
+  ;
+}
+ footer {
+background-color: #2d6a4f;
+color: black; 
+text-align: center;
+margin: 0;
+padding: 0px;
+width: 100%;
+height: 90px;
+font-size: 25px;
+font-family: Georgia;
+bottom: 0;
+position: fixed;
+    
+}

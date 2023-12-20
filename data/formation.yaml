@@ -1,0 +1,25 @@
+- formation: BTS Services Informatiques aux Organisations
+  etablissement: 
+   - nom: Centre de formation Sainte-Ursule
+     dateDebut: "2023"
+     dateFin: "2025"
+     lieu: "Caen"
+     contenu: "Législation prestations familiales"
+    
+- formation: VADEMECAF
+  etablissement:
+    - nom: Caisse d'allocations familiales
+      dateDebut: "2006"
+      dateFin: "2007"
+      lieu: "Caen"
+      contenu: "Législation prestations familiales"
+    
+- formation: BTS Animation et gestion touristiques et locales
+  etablissement: 
+    - nom: Lycée Le Bon Sauveur
+      dateDebut: "2002" 
+      dateFin: "2004"
+      lieu: "Saint-Lô"
+      contenu: "préparation aux métiers du tourisme"  
+   
+#Lien vers le CV dans l'index.php

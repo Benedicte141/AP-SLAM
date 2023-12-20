@@ -1,0 +1,18 @@
+- domaine: developpement
+  competences:
+    - nom: html
+      niveau: "30%"
+    - nom: CSS
+      niveau: "30%"
+    - nom: PHP
+      niveau: "10%"
+    - nom: SQL
+      niveau: "10%"
+- domaine: langues
+  competences:
+    - nom: anglais
+      niveau: "50%"
+    - nom: espagnol
+      niveau: "60%"
+    - nom: allemand
+      niveau: "10%"
