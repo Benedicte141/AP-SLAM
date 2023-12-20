@@ -2,11 +2,11 @@
 
 session_start();
 
-$nom = utf8_decode($_POST['nom']);
-$prenom = utf8_decode($_POST['prenom']);
+$nom = ($_POST['nom']);
+$prenom = ($_POST['prenom']);
 $mail = ($_POST['email']);
-$subject = utf8_decode($_POST['sujet']);
-$message = utf8_decode($_POST['message']);
+$subject = ($_POST['sujet']);
+$message = ($_POST['message']);
 $headers = 'From: '.$nom.'<'.$mail.'>'."\r\n";
 $headers .= 'Reply-to: <'.$mail.'>'."\r\n";
 

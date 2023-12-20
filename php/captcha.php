@@ -4,7 +4,7 @@ session_start();
 
 $_SESSION['captcha'] = rand(1000,9999);
 $img = imagecreatetruecolor(70,30);
-$fill_color = imagecolorallocate($img,86,33,96);
+$fill_color = imagecolorallocate($img,176,242,182);
 imagefilledrectangle($img,0,0,70,30,$fill_color);
 
 $text_color = imagecolorallocate($img, 10,10,10);

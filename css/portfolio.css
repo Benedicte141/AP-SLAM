@@ -1,7 +1,7 @@
 *{
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
+padding: 0px;
+margin: 0px;
+border: 0px;
 }
 
 header {
@@ -20,102 +20,190 @@ padding :0px 15px;
 text-decoration : hover color #d8f3dc;
 }
 
-
 nav {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  font-family: Georgia;
-  position: fixed;
-  height: 40px;
-  margin-top: 100px;
-  }
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+font-family: Georgia;
+position: fixed;
+height: 40px;
+margin-top: 100px;
+}
 
 nav a{
-  font-size:larger;
-	color : black;
-  font-family: Georgia;
-  text-decoration : none;
-  padding :0px 15px; 
-  border-radius: 10%;
+font-size:larger;
+color : black;
+font-family: Georgia;
+text-decoration : none;
+padding :0px 15px; 
+border-radius: 10%;
 }
 
 
 .cercle {
-  width: 150px;
-  height: 150px;
-  margin-left: 50px;
-  border-radius: 60%;
-  overflow: hidden;
-  
-  }
+width: 150px;
+height: 150px;
+margin-left: 50px;
+border-radius: 60%;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+overflow: hidden;
+}
 
 .cercle img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; 
-  }
+width: 100%;
+height: 100%;
+object-fit: cover; 
+}
 
 .card{
-  padding-top: 40px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  border-radius: 20px;
-  width: 500px;
-  height: 200px;
-  font-family: Georgia;
-  display : flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:flex-start;
-  font-size:larger;
+padding-top: 40px;
+margin-bottom: 10px;
+margin-left: 50px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+border-radius: 40px;
+width: 500px;
+height: 200px;
+font-family: Georgia;
+display : flex;
+flex-direction:column;
+align-items:center;
+justify-content:flex-start;
+font-size:larger;
+
 }
 
 .card1{
-  width: 450px;
-  height: 350px;
-  border-radius: 20px;
-  overflow: hidden;
-  display : flex;
-  justify-content: center;
-  margin-left: 800px;
-  margin-top: -350px;
-  }
+width: 450px;
+height: 350px;
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+overflow: hidden;
+display : flex;
+justify-content: center;
+margin-left: 800px;
+margin-top: -400px;
+}
 
 .card1 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  }
+width: 130%;
+height: 130%;
+object-fit: cover;
+}
 
 .card2{
-  width: 450px;
-  height: 350px;
-  border-radius: 20px;
-  overflow: hidden;
-  display : flex;
-  justify-content: center;
-  margin-left: 800px;
-  margin-top: 50px;
-  }
+width: 650px;
+height: 180px;
+font-family: Georgia;
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+margin-left: 100px;
+margin-top: 50px;
+}
 
-.card2 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  }
-body {
-   background-color: #d8f3dc;
-   color: #081c15;
-   font-family: Georgia;
-   background-image: url(C:/xampp/htdocs/AP-SLAM-main/doc/Images/HTML/Feuille Bienvenue.jpg);
-   height : 6000px;
+.card3{
+width: 450px;
+height: 350px;
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+overflow: hidden;
+display : flex;
+justify-content: center;
+margin-left: 800px;
+margin-top: -200px;
+}
+
+.card3 img {
+width: 100%;
+height: 160%;
+object-fit: cover;
+}
+
+.card4{
+width: 300px;
+height: 200px;
+font-family: Georgia;
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+margin-left: 100px;
+margin-top: 50px;
+}
+
+.card5{
+width: 700px;
+height: 300px;
+font-family: Georgia;
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+margin-left: 100px;
+margin-top: 50px;
+}
+.cache{
+display: none;
+}
+
+.card6{
+width: 1300px;
+height: 300px;
+padding-left: 30px;
+font-family: Georgia;
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+margin-left: 100px;
+margin-top: 50px;
+}
+
+.card7{
+width: 450px;
+height: 300px;
+padding-left: 30px;
+font-family: Georgia;
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+margin-left: 100px;
+margin-top: 50px;
+}
+
+.card8{
+width: 450px;
+height: 380px;
+padding-left: 30px;
+font-family: Georgia;
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+margin-left: 100px;
+margin-top: 30px;
+}
+
+.card9{
+width: 600px;
+height: 300px;
+padding-left: 30px;
+font-family: Georgia;
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+margin-left: 700px;
+margin-top: -350px;
+}
+
+.renvoipp{
+display: flex;
+justify-content:first baseline;
+font-family: Georgia;
+color: #d8f3dc;
+margin-top: -520px;
+}
+
+.renvoips{
+display: flex;
+justify-content:last baseline;
+font-family: Georgia;
+color: #d8f3dc;
+margin-top: 500px; 
 }
 
 #accueil{
-  padding-top: 50px;
-  height: 900px;
-  background-color: #d8f3dc;
-  width: 100%;
+padding-top: 50px;
+height: 900px;
+background-color: #d8f3dc;
+width: 100%;
 }
 
 #apropos{
@@ -126,10 +214,10 @@ width: 100%;
 }
 
 #competences {
-  padding-top: 200px;
-  height: 900px;
-  background-color: #d8f3dc;
-  width: 100%;
+padding-top: 200px;
+height: 900px;
+background-color: #d8f3dc;
+width: 100%;
 }
 
 #experiences{
@@ -147,21 +235,21 @@ width: 100%;
 }
 
 #contact{
-  padding-top: 200px;
-  height: 900px;
-  background-color: #2d6a4f;
-  width: 100%;
+padding-top: 200px;
+height: 900px;
+background-color: #2d6a4f;
+width: 100%;
   }
 
 
 .skills {
     
-    width: 70%;;
-    margin :auto;
-    margin-top: 50px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+width: 70%;;
+margin :auto;
+margin-top: -90px;
+background: #fff;
+border-radius: 10px;
+box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
   }
   
  .skills-bar {
@@ -293,9 +381,10 @@ width: 100%;
   }  
 
 span {
-  color : black; 
+color : black; 
   ;
 }
+
  footer {
 background-color: #2d6a4f;
 color: black; 
@@ -303,10 +392,9 @@ text-align: center;
 margin: 0;
 padding: 0px;
 width: 100%;
-height: 90px;
+height: 75px;
 font-size: 25px;
 font-family: Georgia;
 bottom: 0;
 position: fixed;
-    
 }

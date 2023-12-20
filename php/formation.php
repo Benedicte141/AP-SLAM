@@ -10,7 +10,7 @@ foreach($data as $formation){
     echo "<p>".$formation["formation"]."</p>\n";
     echo "<ul>";
     foreach($formation["etablissement"] as $etablissements){
-        echo "<li>".$etablissements["nom"]." : ".$etablissements["dateDebut"]." : ".$etablissements["dateFin"]." : ".$etablissements["lieu"]." : ".$etablissements["contenu"]."</li>";
+        echo "<li>".$etablissements["nom"]." : </li><li>".$etablissements["dateDebut"]." : </li>".$etablissements["dateFin"]." : ".$etablissements["lieu"]." : ".$etablissements["contenu"]."</li>";
     }
     echo "</ul>";
 }
