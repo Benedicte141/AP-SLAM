@@ -26,12 +26,11 @@ $to = 'benedicte.gady@sts-sio-caen.fr';
 <?php
 
 if($_POST['captcha']==$_SESSION['captcha']){
-ini_set('SMTP','smtp.free.fr');
 mail($to, $subject, $message, $headers);
 echo 'Votre message a bien été envoyé';	
 	
 }else{
-echo 'Le captcha entré est invalide. <a href="/Contact.php">Recommencez</a>';	
+echo 'Le captcha entré est invalide. <a href="../index.php#contact">Recommencez</a>';	
 	
 }
 

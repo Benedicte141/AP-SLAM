@@ -56,7 +56,8 @@ object-fit: cover;
 }
 
 .card{
-padding-top: 40px;
+padding-top: 20px;
+padding-bottom: 20px;
 margin-bottom: 10px;
 margin-left: 50px;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -92,9 +93,11 @@ object-fit: cover;
 
 .card2{
 width: 700px;
-height: 180px;
+height: 200px;
 font-family: Georgia;
 border-radius: 20px;
+padding-left: 20px;
+padding-right: 20px;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 margin-left: 100px;
 margin-top: 50px;
@@ -143,8 +146,9 @@ display: none;
 
 .card6{
 width: 1300px;
-height: 300px;
+height: 280px;
 padding-left: 30px;
+padding-right: 30px;
 font-family: Georgia;
 border-radius: 20px;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
