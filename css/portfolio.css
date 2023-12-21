@@ -43,13 +43,15 @@ width: 150px;
 height: 150px;
 margin-left: 50px;
 border-radius: 60%;
-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+box-shadow: 0 4px 8px 0 rgba(34, 53, 49, 0.2);
 overflow: hidden;
 }
 
 .cercle img {
 width: 100%;
 height: 100%;
+border-image-width : &5px;
+box-shadow: 0 4px 8px 0 rgba(34, 53, 49, 0.2);
 object-fit: cover; 
 }
 
@@ -59,13 +61,13 @@ margin-bottom: 10px;
 margin-left: 50px;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 border-radius: 40px;
-width: 500px;
-height: 200px;
+width: 600px;
+height: 100px;
 font-family: Georgia;
 display : flex;
 flex-direction:column;
 align-items:center;
-justify-content:flex-start;
+justify-content:space-evenly;
 font-size:larger;
 
 }
@@ -79,7 +81,7 @@ overflow: hidden;
 display : flex;
 justify-content: center;
 margin-left: 800px;
-margin-top: -400px;
+margin-top: -280px;
 }
 
 .card1 img {
@@ -89,7 +91,7 @@ object-fit: cover;
 }
 
 .card2{
-width: 650px;
+width: 700px;
 height: 180px;
 font-family: Georgia;
 border-radius: 20px;
@@ -151,8 +153,8 @@ margin-top: 50px;
 }
 
 .card7{
-width: 450px;
-height: 300px;
+width: 500px;
+height: 250px;
 padding-left: 30px;
 font-family: Georgia;
 border-radius: 20px;
@@ -162,7 +164,7 @@ margin-top: 50px;
 }
 
 .card8{
-width: 450px;
+width: 550px;
 height: 380px;
 padding-left: 30px;
 font-family: Georgia;
@@ -173,7 +175,7 @@ margin-top: 30px;
 }
 
 .card9{
-width: 600px;
+width: 700px;
 height: 300px;
 padding-left: 30px;
 font-family: Georgia;
@@ -384,6 +386,11 @@ span {
 color : black; 
   ;
 }
+
+span1 {
+  color : #d8f3dc; 
+    ;
+  }
 
  footer {
 background-color: #2d6a4f;

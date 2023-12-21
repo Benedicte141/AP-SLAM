@@ -26,6 +26,7 @@ $to = 'benedicte.gady@sts-sio-caen.fr';
 <?php
 
 if($_POST['captcha']==$_SESSION['captcha']){
+ini_set('SMTP','smtp.free.fr');
 mail($to, $subject, $message, $headers);
 echo 'Votre message a bien été envoyé';	
 	

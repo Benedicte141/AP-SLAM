@@ -6,11 +6,9 @@ $data=yaml_parse_file('data/accueil.yaml');
 
 echo "<h1>".$data["titre"]."</h1>\n";
 
-echo "<p>".ucfirst($data["prenom"])."</p>\n";
-
 echo "<p>".ucfirst($data["nom"])."</p>\n";
 
-echo "<p>".ucfirst($data["accroche"])."</p>\n";
+echo "<h4>".ucfirst($data["accroche"])."</h4>\n";
 
 
 

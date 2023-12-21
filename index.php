@@ -212,7 +212,7 @@ session_start();
     Vous opposer totalement à certains types de traitement de vos données,demander à modifier certaines de vos données (droit de rectification), demander à effacer l’intégralité de vos <br>
     données (le droit à l’oubli ou à l’effacement), transférer vos données d’un opérateur à un autre (droit à la portabilité des données). <br>
     <br>       
-    Si vous souhaitez exercer vos droits, merci de bien vouloir nous envoyer un mail à l’adresse <span> benedicte.gady@sts-sio-caen.info <span>
+    Si vous souhaitez exercer vos droits, merci de bien vouloir nous envoyer un mail à l’adresse <span1>benedicte.gady@sts-sio-caen.info<span1>
     </p>
     </div>
       <div class="renvoipp">

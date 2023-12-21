@@ -7,7 +7,7 @@ $data=yaml_parse_file('data/experiences.yaml');
 echo "<h1>Expériences</h1>\n";
 
 foreach($data as $employeur){
-    echo "<p>".$employeur["employeur"]."</p>\n";
+    echo "<h3>".$employeur["employeur"]."</h3>\n";
     echo "<ul>";
     foreach($employeur["competence"] as $competences){
         echo "<li>".$competences["nom"]." : ".$competences["description"]." : ".$competences["description"]."</li>";

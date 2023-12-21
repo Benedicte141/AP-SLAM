@@ -7,10 +7,10 @@ $data=yaml_parse_file('data/formation.yaml');
 echo "<h1>Formation</h1>\n";
 
 foreach($data as $formation){
-    echo "<p>".$formation["formation"]."</p>\n";
+    echo "<h3>".$formation["formation"]."</h3>\n";
     echo "<ul>";
     foreach($formation["etablissement"] as $etablissements){
-        echo "<li>".$etablissements["nom"]." : </li><li>".$etablissements["dateDebut"]." : </li>".$etablissements["dateFin"]." : ".$etablissements["lieu"]." : ".$etablissements["contenu"]."</li>";
+        echo "<li>".$etablissements["nom"]." : </li>".$etablissements["date"]." : ".$etablissements["lieu"]." => ".$etablissements["contenu"]."</li>";
     }
     echo "</ul>";
 }
