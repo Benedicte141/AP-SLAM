@@ -207,12 +207,12 @@ session_start();
     <div class="card9">
     <p><h3><em> RGPD : </em></h3><br>
     Les informations recueillies sur ce formulaire font l’objet d’un traitement informatisé par le propriétaire de ce site (Bénédicte GADY) pour la gestion des prospects et clients.<br>
-    Les données ne sont pas transmises à des tiers. Vos informations complétées ci-dessus (Nom et Adresse email) nous permettront de vous contacter.<br>
+    Les données ne sont pas transmises à des tiers. Vos informations complétées ci-dessus (Nom et Adresse email) me permettront de vous contacter.<br>
     Concernant vos droits, vous pouvez :<br>
-    Vous opposer totalement à certains types de traitement de vos données,demander à modifier certaines de vos données (droit de rectification), demander à effacer l’intégralité de vos <br>
+    Vous opposer totalement à certains types de traitements de vos données, demander à modifier certaines de vos données (droit de rectification), demander à effacer l’intégralité de vos <br>
     données (le droit à l’oubli ou à l’effacement), transférer vos données d’un opérateur à un autre (droit à la portabilité des données). <br>
     <br>       
-    Si vous souhaitez exercer vos droits, merci de bien vouloir nous envoyer un mail à l’adresse <span1>benedicte.gady@sts-sio-caen.info<span1>
+    Si vous souhaitez exercer vos droits, merci de bien vouloir envoyer un mail en cliquant sur <a href="mailto:benedicte.gady@sts-sio-caen.info"><span1>"Me contacter"<span1></a>
     </p>
     </div>
       <div class="renvoipp">
